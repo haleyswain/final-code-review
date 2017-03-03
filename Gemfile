@@ -49,6 +49,10 @@ group :development, :test do
   gem 'launchy'
   gem 'pry'
   gem 'shoulda-matchers'
+  gem 'simplecov', :require => false, :group => :test
+  gem 'factory_girl_rails'
+  gem 'capybara'
+
 end
 
 group :development do
