@@ -1,7 +1,36 @@
 @import "materialize";
 
+body {
+  display: flex;
+  max-height: 300px;
+  flex-direction: column;
+}
+.projects {
+  padding-bottom: 10%;
+  text-align: center;
+}
+main {
+    flex: 1 0 auto;
+}
+i {
+font-size: 80px;
+}
 
-
+footer.page-footer{
+  margin: 0px;
+  background-color: #bbdefb;
+}
+.about {
+  text-align: center;
+}
+#linkedin{
+  max-width: 50px;
+  max-height: 50px;
+}
+#github {
+   max-width: 50px;
+   max-height: 50px;
+ }
 .content .top {
 background-image: url("https://static.pexels.com/photos/115045/pexels-photo-115045.jpeg");
  background-size: cover;
@@ -21,15 +50,9 @@ background-image: url("https://static.pexels.com/photos/115045/pexels-photo-1150
  animation-iteration-count: infinite;
 }
 nav {
-  background-color: #d7ccc8;
+  background-color: #bbdefb;
 }
 .waves-effect {
   background-color: white;
-}
-body {
-  margin: none;
-}
-footer.page-footer{
-  margin: 0px;
-  background-color: #d7ccc8;
+  margin: 5%;
 }
