@@ -1,12 +1,31 @@
 @import "materialize";
-
-img {
-  width: 100vw;
-  background-repeat: no-repeat;
-  color: white;
-  display: flex;
-  overflow: hidden;
+.content .top {
+background-image: url("https://static.pexels.com/photos/115045/pexels-photo-115045.jpeg");
+ background-size: cover;
+ background-position: center bottom;
+ height: 600px;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-items: center;
+ color: white;
+ justify-content: center;
+ font-style: italic;
+ font-family:'Merriweather', serif;
+ animation-name: textglow;
+ animation-duration: 10s;
+ animation-iteration-count: infinite;
 }
 nav {
   background-color: #d7ccc8;
+}
+.waves-effect {
+  background-color: white;
+}
+body {
+  margin: none;
+}
+footer.page-footer{
+  margin: 0px;
 }
