@@ -4,9 +4,12 @@ Rails.application.routes.draw do
 
   root "home#index"
 
-  resources :users do
-    resources :about
-    resources :projects
-  end
+    resources :users do
+    end
 
+    resources :about do
+    end
+
+    resources :projects do
+    end
 end
