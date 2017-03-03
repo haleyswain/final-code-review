@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Project contains the professional portfolio for Haley Swain. It was built using Rails, Materialize, and the Github API.
 
-Things you may want to cover:
+## Setup/Installation Requirements
 
-* Ruby version
+* Clone This Repository
+* navigate to this project directory
+* run bundle install from your terminal
+* run rake db:create in your terminal
+* run rake db:migrate db:test:prepare in your terminal
+* run ruby server in the terminal
+* navigate to localhost:3000 in your favorite Web Browser
 
-* System dependencies
+## Known Bugs
+* There are no known bugs with this page.
 
-* Configuration
+## Support and contact details
 
-* Database creation
+In the event of any problems, please contact haley at haleyswain@gmail.com. 
 
-* Database initialization
+## Technologies Used
+* HTML
+* Ruby/Rails
+* Materialize CSS
+* Devise Gem
+* Simplecov Gem
+* FactoryGirl Gem
+* Rspec
+* Rails Admin Gem
 
-* How to run the test suite
+### License
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Copyright (c) 2017 Haley Swain MIT License
